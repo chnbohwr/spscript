@@ -5,8 +5,8 @@ export default {
   input: "src/index.ts", // our source file
   output: [
     {
-      file: "dist/spscript.browser.js",
-      format: "iife",
+      file: "dist/index.js",
+      format: "cjs",
       name: "SPScript", // the global which can be used in a browser
     },
   ],
